@@ -17,10 +17,18 @@ $("a.toscroll").on('click',function(e) {
 });
 
 $('.menu-toggle').click(function(){
-	$('#menu').toggleClass('hidden');	
+	$('#menu').toggleClass('hidden');
 })
 
+$(function(){
 
+  // Instantiate MixItUp:
+
+  $('#portfolio').mixItUp();
+
+});
+
+$('#filters').fixedsticky();
 
 
 
